@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 describe 'Appointment' do
-
   before do
     @mcdreamy = Doctor.create(name: "Derek Shepherd", department: "Neurosurgery")
     @patient = Patient.create(name: "Russell Wilson", age: 27)
